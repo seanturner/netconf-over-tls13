@@ -12,13 +12,6 @@ workgroup: TBD
 keyword:
  - NETCONF
  - TLS 1.3
-# venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
-#  github: USER/REPO
-#  latest: https://example.com/LATEST
 
 author:
  -
