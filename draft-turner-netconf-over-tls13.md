@@ -28,8 +28,8 @@ author:
     code: 20170
     country: US
     email: housley@vigilsec.com
-    
-    
+
+
 --- abstract
 
 RFC 7589 defines how to protect NETCONF messages with TLS 1.2.
@@ -93,13 +93,13 @@ So, this is what {{Section 9.1 of I-D.ietf-tls-rfc8446bis}} says:
    [GCM] cipher suite and SHOULD implement the TLS_AES_256_GCM_SHA384
    [GCM] and TLS_CHACHA20_POLY1305_SHA256 [RFC8439] cipher suites (see
    Appendix B.4).
-
+   
    A TLS-compliant application MUST support digital signatures with
    rsa_pkcs1_sha256 (for certificates), rsa_pss_rsae_sha256 (for
    CertificateVerify and certificates), and ecdsa_secp256r1_sha256.  A
    TLS-compliant application MUST support key exchange with secp256r1
    (NIST P-256) and SHOULD support key exchange with X25519 [RFC7748].
-   
+
 Is there any reason to narrow the algorithm choices?
 
 My guess is not.  These ought to be available in all TLS libraries.
