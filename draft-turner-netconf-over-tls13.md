@@ -7,8 +7,8 @@ docname: draft-turner-netconf-over-tls13-latest
 submissiontype: IETF
 consensus: true
 v: 3
-area: OPS
-workgroup: TBD
+area: "Operations and Management"
+workgroup: "Network Configuration"
 keyword:
  - NETCONF
  - TLS 1.3
