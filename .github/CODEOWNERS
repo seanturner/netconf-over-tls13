@@ -1,0 +1,3 @@
+# Automatically generated CODEOWNERS
+# Regenerate with `make update-codeowners`
+draft-turner-netconf-over-tls13.md sean@sn3rd.com housley@vigilsec.com
